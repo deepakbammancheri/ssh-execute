@@ -1,0 +1,16 @@
+Description:
+
+ssh-execute is a powerful promise wrapper around ssh2-promise package. 
+It helps to execute the ssh commands directly with the help of ssh promise exec function.
+
+Installation:
+
+npm i @bammadeep/ssh-execute
+
+usage:
+
+import SSHExecute = require('ssh-execute');
+
+sshExecute = new SSHExecute();
+
+this.sshUtil.executeCommand(hostname, usename, password, command);
